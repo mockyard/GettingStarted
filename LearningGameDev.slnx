@@ -1,0 +1,10 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Folder Name="/Build/" />
+  <Folder Name="/Dependencies/" />
+  <Folder Name="/Projects/">
+    <Project Path="PingPong/PingPong.vcxproj" Id="224fe8dd-94ef-43d6-a530-49529a3a7829" />
+  </Folder>
+</Solution>
