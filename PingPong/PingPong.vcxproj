@@ -80,7 +80,15 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Ball.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Paddle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ball.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Paddle.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
