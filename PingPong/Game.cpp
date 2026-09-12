@@ -8,22 +8,22 @@ Game::Game()
 	ball.radius = 20;
 	ball.x = screen_width / 2;
 	ball.y = screen_height / 2;
-	ball.speed_x = 400;
-	ball.speed_y = 400;
+	ball.speed_x = 500;
+	ball.speed_y = 500;
 
 	// player paddle
 	player.width = 25;
 	player.height = 120;
 	player.x = screen_width - player.width - 10;
 	player.y = screen_height / 2 - player.height / 2;
-	player.speed = 500;
+	player.speed = 600;
 
 	// cpu paddle
 	cpu.width = 25;
 	cpu.height = 120;
 	cpu.x = 10;
 	cpu.y = screen_height / 2 - cpu.height / 2;
-	cpu.speed = 500;
+	cpu.speed = 600;
 }
 
 void Game::Run()

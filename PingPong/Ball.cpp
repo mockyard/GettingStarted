@@ -23,6 +23,6 @@ void Ball::ResetBall()
 
 	int direction[2] = { -1, 1 };
 
-	speed_x = 300 * direction[GetRandomValue(0, 1)];
-	speed_y = 300 * direction[GetRandomValue(0, 1)];
+	speed_x = 500 * direction[GetRandomValue(0, 1)];
+	speed_y = 500 * direction[GetRandomValue(0, 1)];
 }
